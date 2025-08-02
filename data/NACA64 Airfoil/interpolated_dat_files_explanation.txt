@@ -1,0 +1,14 @@
+Below are five evenly-spaced span-station air-foil files that linearly squeeze the 64A root thickness (5.92 % c) down to the tip thickness (4.29 % c).
+
+η = 0.00 → root (already in 64A005.92.dat)
+
+η = 0.25 → 93.12 % of root thickness
+
+η = 0.50 → 86.23 % of root thickness
+
+η = 0.75 → 79.35 % of root thickness
+
+η = 1.00 → tip (already in 64A004.29.dat)
+
+Save each block to its own .dat file and reference it with AFILE in the corresponding SECTION card of your .avl wing definition.
+All coordinates are symmetric, so AVL sees Cm₀ ≈ 0 and α₀L ≈ 0° throughout.
